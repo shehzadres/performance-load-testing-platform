@@ -27,7 +27,7 @@ flowchart LR
   R --> C[Release Comparison]
 ```
 
-See [Architecture](docs/ARCHITECTURE.md), [Test Strategy](docs/TEST_STRATEGY.md) and [Project Guide](docs/PROJECT_GUIDE.md).
+See [Architecture](docs/ARCHITECTURE.md), [Test Strategy](docs/TEST_STRATEGY.md), [Project Guide](docs/PROJECT_GUIDE.md) and [Bottleneck Analysis](docs/BOTTLENECK_ANALYSIS.md).
 
 ## Prerequisites
 
@@ -127,6 +127,7 @@ jmeter/              JMeter test plan
 monitoring/          Prometheus, alert rules and Grafana provisioning
 scripts/             PowerShell operator scripts
 docs/                Architecture, strategy, execution and interview docs
+evidence/            Curated local and CI JTL/report evidence
 showcase/            Recruiter-facing visual project page
 results/             Generated JTL and JSON evidence (raw JTL ignored by Git)
 reports/             Generated Markdown reports

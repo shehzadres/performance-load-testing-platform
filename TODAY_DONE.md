@@ -7,7 +7,7 @@
 - Fixed the JMeter Docker image to a published JMeter 5.6.3 image.
 - Corrected transaction-controller placement and separated transaction rows from request throughput.
 - Added Grafana API CPU monitoring; dashboard now has seven panels.
-- Implemented the recruiter-facing showcase and published it on GitHub Pages.
+- Implemented the recruiter-facing showcase, added local throughput comparison bars and published it on GitHub Pages.
 - Started and verified API, Prometheus and Grafana locally.
 - Completed local smoke, baseline, stress and baseline-repeat runs with raw JTL and report evidence.
 - Recorded the same-workload repeatability comparison and a measured stress bottleneck observation.
