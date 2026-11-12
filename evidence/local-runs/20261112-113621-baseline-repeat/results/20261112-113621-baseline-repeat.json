@@ -1,0 +1,63 @@
+{
+  "run_id": "20261112-113621-baseline-repeat",
+  "environment": "local",
+  "generated_at": "2026-11-12T06:37:31.162823+00:00",
+  "total_jtl_samples": 14041,
+  "sample_count": 11701,
+  "transaction_count": 2340,
+  "successful_samples": 11701,
+  "failed_samples": 0,
+  "error_rate_pct": 0.0,
+  "duration_seconds": 60.014,
+  "throughput_rps": 194.971,
+  "response_time_ms": {
+    "min": 0,
+    "mean": 46.9,
+    "median": 37.0,
+    "p90": 126.0,
+    "p95": 130.0,
+    "p99": 138.0,
+    "max": 175
+  },
+  "transaction_response_time_ms": {
+    "min": 220,
+    "mean": 234.54,
+    "median": 233.0,
+    "p90": 245.0,
+    "p95": 249.05,
+    "p99": 265.0,
+    "max": 336
+  },
+  "by_sampler": {
+    "Checkout": {
+      "samples": 2340,
+      "errors": 0,
+      "mean_ms": 51.23,
+      "p95_ms": 61.0
+    },
+    "Health Check": {
+      "samples": 2341,
+      "errors": 0,
+      "mean_ms": 1.55,
+      "p95_ms": 3.0
+    },
+    "List Products": {
+      "samples": 2340,
+      "errors": 0,
+      "mean_ms": 16.92,
+      "p95_ms": 19.0
+    },
+    "Search": {
+      "samples": 2340,
+      "errors": 0,
+      "mean_ms": 37.01,
+      "p95_ms": 39.0
+    },
+    "Variable Cost Report": {
+      "samples": 2340,
+      "errors": 0,
+      "mean_ms": 127.83,
+      "p95_ms": 138.0
+    }
+  }
+}

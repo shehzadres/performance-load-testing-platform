@@ -1,18 +1,18 @@
 # Today's Work Completed
 
-- Reworked README into a recruiter-friendly project overview with architecture and setup instructions.
-- Added MIT license, contributing guide, changelog and architecture documentation.
-- Added GitHub Actions CI workflow.
-- Added seven Node.js API contract tests and four Python analyzer unit tests.
-- Generated npm lockfile with pinned direct dependencies.
-- Expanded JMeter from four GET samplers to five samplers, including checkout POST and response-code assertions.
-- Added a recruiter-facing HTML showcase that consumes genuine generated run summaries.
-- Moved host API port to 18080 to avoid a local port 8080 conflict.
-- Python unit tests passed: 4/4.
-- API contract tests passed: 7/7.
-- Python compile, JMeter XML, Grafana JSON and Docker Compose configuration checks passed.
-- Relaunched Docker Desktop and restored Docker Engine connectivity.
+- Reworked the README and added project architecture, contribution, changelog and MIT license documentation.
+- Added GitHub Actions checks for Python, Node API contracts, Compose validation and full Docker/JMeter integration smoke.
+- Added seven Node API contract tests and eight Python/JMeter plan tests.
+- Added five JMeter HTTP samplers with status assertions, including checkout POST.
+- Fixed the JMeter Docker image to a published JMeter 5.6.3 image.
+- Corrected transaction-controller placement and separated transaction rows from request throughput.
+- Added Grafana API CPU monitoring; dashboard now has seven panels.
+- Implemented the recruiter-facing showcase and published it on GitHub Pages.
+- Started and verified API, Prometheus and Grafana locally.
+- Completed local smoke, baseline, stress and baseline-repeat runs with raw JTL and report evidence.
+- Recorded the same-workload repeatability comparison and a measured stress bottleneck observation.
+- Created and pushed the public GitHub repository.
 
-## Still in progress
+## Latest remaining check
 
-Docker image downloads are slow and the Compose stack has not yet been verified end to end. JMeter smoke, baseline and stress runs, Grafana screenshots, measured release comparison and GitHub publication remain pending. No fabricated metrics have been added.
+Push the final JMeter/analyzer/dashboard/docs/evidence changes, verify the new GitHub Actions run, and confirm that GitHub Pages updates with the corrected smoke summary.

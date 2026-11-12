@@ -1,5 +1,7 @@
 # Performance & Load Testing Platform
 
+[![Quality Checks](https://github.com/shehzadres/performance-load-testing-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/shehzadres/performance-load-testing-platform/actions/workflows/ci.yml) [![Recruiter Showcase](https://img.shields.io/badge/Recruiter_Showcase-Live-2d8f79)](https://shehzadres.github.io/performance-load-testing-platform/)
+
 A reproducible local performance-engineering lab built with Apache JMeter, Docker Compose, Node.js, Prometheus, Grafana and Python.
 
 > **Evidence policy:** benchmark numbers are generated only by real JMeter runs against the local demo API. No illustrative or synthetic fixture data is presented as measured performance.
@@ -83,6 +85,23 @@ Compare two runs:
 ```powershell
 .\scripts\compare-releases.ps1 -Baseline <baseline-run-id> -Candidate <candidate-run-id>
 ```
+
+## Measured local results
+
+These are actual JMeter runs against the local demo API on 12 November 2026. Transaction Controller samples are reported separately and excluded from HTTP request throughput to avoid double-counting.
+
+| Scenario | Virtual users | Duration | Request samples | Throughput | p95 latency | Error rate |
+|---|---:|---:|---:|---:|---:|---:|
+| Smoke | 2 | 10 sec | 403 | 40.312 req/s | 127 ms | 0% |
+| Baseline | 10 | 60 sec | 11,191 | 186.265 req/s | 130 ms | 0% |
+| Stress | 50 | 90 sec | 59,533 | 659.331 req/s | 183 ms | 0% |
+| Baseline repeat | 10 | 60 sec | 11,701 | 194.971 req/s | 130 ms | 0% |
+
+**Execution environment:** Dell Latitude 7420, Intel Core i7-1185G7 (4 cores / 8 threads), 15.73 GiB RAM, Windows 11 Pro, Docker Engine 29.5.3, Docker Compose 5.1.4 and JMeter 5.6.3.
+
+The stress run delivered approximately 3.54× baseline throughput while p95 latency increased by approximately 40.8%; no failed HTTP samples were recorded. These figures describe this machine, test plan and synthetic API only. They are not universal capacity claims or production SLOs.
+
+Curated raw JTL files, JSON summaries and Markdown reports are stored in [local execution evidence](evidence/local-runs/). The GitHub Actions smoke result is separately identified as a hosted-runner measurement.
 
 ## API under test
 

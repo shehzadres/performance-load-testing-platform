@@ -11,16 +11,15 @@ venv/
 .env.*
 !.env.example
 
-# Generated performance evidence
+# Generated performance outputs
 results/*.jtl
 results/*.csv
 results/*.log
+results/*.json
 results/html-*/
 reports/*.json
-reports/comparison-*.md
+reports/*.md
 showcase/data/*.json
-
-# Keep intentional placeholders and documentation
 !results/.gitkeep
 !reports/.gitkeep
 !showcase/data/.gitkeep

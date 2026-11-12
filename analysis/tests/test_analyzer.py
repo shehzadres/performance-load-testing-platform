@@ -29,7 +29,7 @@ class PercentileTests(unittest.TestCase):
 
 
 class AnalyzerCliTests(unittest.TestCase):
-    def test_cli_writes_summary_report_and_showcase_data(self):
+    def test_cli_separates_transaction_rows_from_request_throughput(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             fixture = root / "fixture.jtl"
@@ -37,7 +37,8 @@ class AnalyzerCliTests(unittest.TestCase):
                 "timeStamp,elapsed,label,responseCode,success\n"
                 "1000,100,Health,200,true\n"
                 "1100,200,Products,200,true\n"
-                "1300,300,Checkout,201,true\n",
+                "1300,300,Checkout,201,true\n"
+                "1000,400,Transaction: API Journey,200,true\n",
                 encoding="utf-8"
             )
             subprocess.run(
@@ -48,9 +49,13 @@ class AnalyzerCliTests(unittest.TestCase):
             latest = json.loads((root / "showcase/data/latest.json").read_text(encoding="utf-8"))
             report = (root / "reports/unit-fixture.md").read_text(encoding="utf-8")
             self.assertEqual(summary["sample_count"], 3)
+            self.assertEqual(summary["total_jtl_samples"], 4)
+            self.assertEqual(summary["transaction_count"], 1)
             self.assertEqual(summary["failed_samples"], 0)
+            self.assertEqual(summary["throughput_rps"], 5.0)
             self.assertEqual(latest["run_id"], "unit-fixture")
-            self.assertIn("Response time", report)
+            self.assertIn("Transaction response time", report)
+            self.assertIn("excluded from request throughput", report)
 
 
 if __name__ == "__main__":

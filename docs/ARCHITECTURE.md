@@ -22,6 +22,8 @@
 6. Python converts the JTL into a JSON summary and Markdown report.
 7. The comparison tool evaluates two runs across throughput, mean, p95, p99 and error rate.
 
+The JMeter plan wraps the five HTTP samplers in a Transaction Controller named `Transaction: API Journey`. The analyzer reports those journey timings separately and excludes transaction rows from request throughput, request error rate and request percentiles so the same journey is not counted twice.
+
 ## Reliability boundaries
 
 - The API is a synthetic system under test, not a real commerce service.
