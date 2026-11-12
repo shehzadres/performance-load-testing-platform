@@ -40,10 +40,10 @@ The repeated baseline comparison showed all measured changes within 5%. See docs
 ## GitHub verification
 
 - Public repository: https://github.com/shehzadres/performance-load-testing-platform
-- Final functional commit: bf83d66
-- GitHub Actions run 43169817342: SUCCESS.
+- Final showcase commit: 1a5f432
+- GitHub Actions run 43170474335: SUCCESS.
 - All five jobs passed: Python analysis tests, API contract tests, Compose configuration, Docker/Prometheus/Grafana/JMeter integration, and recruiter showcase deployment.
-- Hosted CI smoke: 434 request samples, 42.970 req/s, p95 123 ms, 0% errors; 86 transaction samples reported separately.
+- Hosted CI smoke: 437 request samples, 43.556 req/s, p95 123 ms, 0% errors; 87 transaction samples reported separately.
 - GitHub Pages recruiter showcase returned HTTP 200 and displays the corrected CI smoke summary: https://shehzadres.github.io/performance-load-testing-platform/
 - CI raw JTL, JSON and Markdown report are preserved in evidence/ci-smoke/.
 

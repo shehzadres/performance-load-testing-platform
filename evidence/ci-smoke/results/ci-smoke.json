@@ -1,63 +1,63 @@
 {
   "run_id": "ci-smoke",
   "environment": "github-actions",
-  "generated_at": "2026-11-12T06:41:45.689129+00:00",
-  "total_jtl_samples": 520,
-  "sample_count": 434,
-  "transaction_count": 86,
-  "successful_samples": 434,
+  "generated_at": "2026-11-12T06:47:21.473236+00:00",
+  "total_jtl_samples": 524,
+  "sample_count": 437,
+  "transaction_count": 87,
+  "successful_samples": 437,
   "failed_samples": 0,
   "error_rate_pct": 0.0,
-  "duration_seconds": 10.1,
-  "throughput_rps": 42.97,
+  "duration_seconds": 10.033,
+  "throughput_rps": 43.556,
   "response_time_ms": {
     "min": 0,
-    "mean": 44.59,
+    "mean": 44.16,
     "median": 36.0,
-    "p90": 123.0,
+    "p90": 122.0,
     "p95": 123.0,
-    "p99": 124.0,
-    "max": 127
+    "p99": 123.0,
+    "max": 129
   },
   "transaction_response_time_ms": {
-    "min": 219,
-    "mean": 222.98,
-    "median": 222.0,
-    "p90": 225.0,
-    "p95": 225.0,
-    "p99": 234.35,
-    "max": 276
+    "min": 217,
+    "mean": 221.62,
+    "median": 221.0,
+    "p90": 223.0,
+    "p95": 224.0,
+    "p99": 234.82,
+    "max": 289
   },
   "by_sampler": {
     "Checkout": {
-      "samples": 86,
-      "errors": 0,
-      "mean_ms": 46.62,
-      "p95_ms": 47.75
-    },
-    "Health Check": {
       "samples": 87,
       "errors": 0,
-      "mean_ms": 1.29,
+      "mean_ms": 46.4,
+      "p95_ms": 47.0
+    },
+    "Health Check": {
+      "samples": 88,
+      "errors": 0,
+      "mean_ms": 1.28,
       "p95_ms": 1.0
     },
     "List Products": {
-      "samples": 87,
+      "samples": 88,
       "errors": 0,
-      "mean_ms": 15.93,
+      "mean_ms": 15.72,
       "p95_ms": 17.0
     },
     "Search": {
       "samples": 87,
       "errors": 0,
-      "mean_ms": 36.24,
-      "p95_ms": 38.0
+      "mean_ms": 35.82,
+      "p95_ms": 37.0
     },
     "Variable Cost Report": {
       "samples": 87,
       "errors": 0,
-      "mean_ms": 122.92,
-      "p95_ms": 124.0
+      "mean_ms": 122.4,
+      "p95_ms": 123.0
     }
   }
 }

@@ -14,12 +14,12 @@ These are measurements of the synthetic local API on the recorded host. They are
 
 ## GitHub Actions evidence
 
-Workflow run 43169817342 on the GitHub-hosted runner completed a real 2-user, 10-second JMeter smoke test:
+Workflow run 43170474335 on the GitHub-hosted runner completed a real 2-user, 10-second JMeter smoke test:
 
-- 434 HTTP request samples.
-- 42.970 requests/second.
+- 437 HTTP request samples.
+- 43.556 requests/second.
 - p95 request latency: 123 ms.
 - Request error rate: 0%.
-- 86 transaction samples reported separately.
+- 87 transaction samples reported separately.
 
 The raw JTL, JSON summary and Markdown report are stored in ci-smoke/. CI-runner measurements must not be mixed with local laptop measurements.

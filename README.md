@@ -101,7 +101,7 @@ These are actual JMeter runs against the local demo API on 12 November 2026. Tra
 
 The stress run delivered approximately 3.54× baseline throughput while p95 latency increased by approximately 40.8%; no failed HTTP samples were recorded. These figures describe this machine, test plan and synthetic API only. They are not universal capacity claims or production SLOs.
 
-Curated raw JTL files, JSON summaries and Markdown reports are stored in [local execution evidence](evidence/local-runs/). The separate GitHub-hosted CI smoke run recorded 434 requests, 42.970 req/s, 123 ms p95 and 0% errors; its raw evidence is in evidence/ci-smoke/. Hosted-runner figures are not mixed with local laptop measurements.
+Curated raw JTL files, JSON summaries and Markdown reports are stored in [local execution evidence](evidence/local-runs/). The separate GitHub-hosted CI smoke run recorded 437 requests, 43.556 req/s, 123 ms p95 and 0% errors; its raw evidence is in evidence/ci-smoke/. Hosted-runner figures are not mixed with local laptop measurements.
 
 ## API under test
 

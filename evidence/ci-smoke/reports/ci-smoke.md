@@ -1,48 +1,48 @@
 # Performance Test Report: ci-smoke
 
 - Environment: github-actions
-- Generated: 2026-11-12T06:41:45.689129+00:00
-- Request samples: 434
-- Transaction samples: 86
-- Successful requests: 434
+- Generated: 2026-11-12T06:47:21.473236+00:00
+- Request samples: 437
+- Transaction samples: 87
+- Successful requests: 437
 - Failed requests: 0
 - Request error rate: 0.0%
-- Request throughput: 42.97 req/s
-- Wall time: 10.1 sec
+- Request throughput: 43.556 req/s
+- Wall time: 10.033 sec
 
 ## Request response time (ms)
 
 | Metric | Value |
 |---|---:|
 | min | 0 |
-| mean | 44.59 |
+| mean | 44.16 |
 | median | 36.0 |
-| p90 | 123.0 |
+| p90 | 122.0 |
 | p95 | 123.0 |
-| p99 | 124.0 |
-| max | 127 |
+| p99 | 123.0 |
+| max | 129 |
 
 ## Transaction response time (ms)
 
 | Metric | Value |
 |---|---:|
-| min | 219 |
-| mean | 222.98 |
-| median | 222.0 |
-| p90 | 225.0 |
-| p95 | 225.0 |
-| p99 | 234.35 |
-| max | 276 |
+| min | 217 |
+| mean | 221.62 |
+| median | 221.0 |
+| p90 | 223.0 |
+| p95 | 224.0 |
+| p99 | 234.82 |
+| max | 289 |
 
 ## Request sampler breakdown
 
 | Sampler | Samples | Errors | Mean ms | p95 ms |
 |---|---:|---:|---:|---:|
-| Checkout | 86 | 0 | 46.62 | 47.75 |
-| Health Check | 87 | 0 | 1.29 | 1.0 |
-| List Products | 87 | 0 | 15.93 | 17.0 |
-| Search | 87 | 0 | 36.24 | 38.0 |
-| Variable Cost Report | 87 | 0 | 122.92 | 124.0 |
+| Checkout | 87 | 0 | 46.4 | 47.0 |
+| Health Check | 88 | 0 | 1.28 | 1.0 |
+| List Products | 88 | 0 | 15.72 | 17.0 |
+| Search | 87 | 0 | 35.82 | 37.0 |
+| Variable Cost Report | 87 | 0 | 122.4 | 123.0 |
 
 ## Investigation notes
 - Transaction Controller rows are reported separately and excluded from request throughput to avoid double-counting.

@@ -46,13 +46,13 @@ See BOTTLENECK_ANALYSIS.md for the measured observation and remediation hypothes
 
 ## Hosted CI smoke
 
-- Workflow run: 43169817342
-- Commit: bf83d66
+- Workflow run: 43170474335
+- Commit: 1a5f432
 - Environment: GitHub-hosted Actions runner
 - Workload: 2 virtual users, 10 seconds
-- HTTP request samples: 434
-- Transaction samples: 86 (reported separately)
-- Throughput: 42.970 req/s
+- HTTP request samples: 437
+- Transaction samples: 87 (reported separately)
+- Throughput: 43.556 req/s
 - p95 request latency: 123 ms
 - Request error rate: 0%
 

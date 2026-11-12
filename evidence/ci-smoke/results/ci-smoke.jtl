@@ -1,521 +1,525 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1794465693751,37,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,1,1,http://api:8080/health,33,0,24
-1794465693792,18,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,1,1,http://api:8080/api/products,18,0,0
-1794465693810,38,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,1,1,http://api:8080/api/search?q=keyboard,38,0,0
-1794465693849,127,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,1,1,http://api:8080/api/report?delayMs=120&work=100000,127,0,0
-1794465693977,56,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,1,1,http://api:8080/api/checkout,56,0,0
-1794465693663,276,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,1,1,null,272,95,24
-1794465694035,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,1,1,http://api:8080/health,1,0,0
-1794465694037,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,1,1,http://api:8080/api/products,15,0,0
-1794465694053,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,1,1,http://api:8080/api/search?q=keyboard,36,0,0
-1794465694157,2,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694159,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465694090,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465694176,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465694214,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694034,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,5,0
-1794465694262,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694264,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465694281,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465694214,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465694337,48,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
-1794465694156,227,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,226,3,0
-1794465694386,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694388,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465694319,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465694405,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465694443,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694262,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,224,5,0
-1794465694491,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694492,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465694510,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465694443,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465694566,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694386,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,4,0
-1794465694614,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694616,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465694546,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465694633,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465694669,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694491,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,4,0
-1794465694717,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694718,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465694735,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465694669,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465694793,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465694614,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,4,0
-1794465694840,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694841,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465694773,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465694858,38,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,38,0,0
-1794465694897,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465694717,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,224,3,0
-1794465694944,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465694946,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465694963,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465694897,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695021,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694840,226,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,226,2,0
-1794465695069,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695070,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465694999,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465695087,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465695124,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465694944,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,5,0
-1794465695172,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695173,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465695190,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465695124,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695248,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465695068,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,225,2,0
-1794465695296,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695297,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465695228,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695314,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465695351,48,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
-1794465695172,226,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,226,1,0
-1794465695400,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465695401,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465695417,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465695351,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695475,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465695295,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,225,2,0
-1794465695523,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695524,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465695453,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695541,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465695577,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465695399,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,4,0
-1794465695624,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695625,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465695643,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465695579,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465695702,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465695523,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,2,0
-1794465695748,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695749,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465695680,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695766,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465695803,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465695624,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,2,0
-1794465695850,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695851,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465695868,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465695803,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695927,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465695748,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,225,1,0
-1794465695975,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465695976,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465695904,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465695992,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465696028,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465695850,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,2,0
-1794465696076,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696078,18,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,18,0,0
-1794465696096,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465696028,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465696151,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465695974,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,2,0
-1794465696198,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696200,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465696215,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465696133,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465696255,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465696076,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,224,3,0
-1794465696303,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696304,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465696320,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465696252,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465696376,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465696198,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
-1794465696423,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696424,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465696439,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465696356,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465696479,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465696303,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
-1794465696527,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696529,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465696545,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465696476,125,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,125,0,0
-1794465696602,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465696423,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
-1794465696648,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696649,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465696666,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465696582,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465696705,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465696526,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,5,0
-1794465696753,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696754,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465696771,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465696702,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465696826,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465696648,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,3,0
-1794465696873,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696874,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465696890,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465696807,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465696930,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465696753,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
-1794465696977,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465696978,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465696995,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465696926,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465697049,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465696873,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,2,0
-1794465697096,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697097,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697114,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465697031,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465697155,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465696977,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
-1794465697202,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697203,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697220,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465697150,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465697273,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465697096,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,3,0
-1794465697321,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697322,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697338,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465697255,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465697378,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697202,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
-1794465697424,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697425,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465697440,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465697375,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465697497,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697321,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,0,0
-1794465697544,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465697545,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697477,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465697561,39,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,39,0,0
-1794465697600,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697424,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
-1794465697647,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697648,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697664,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465697600,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465697723,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697543,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,224,3,0
-1794465697770,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697771,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465697786,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465697700,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465697824,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697647,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
-1794465697870,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465697871,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465697888,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465697823,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465697946,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697770,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,0,0
-1794465697993,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465697994,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465697924,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465698009,38,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,38,0,0
-1794465698047,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465697870,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,3,0
-1794465698094,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465698095,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465698112,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465698047,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465698170,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465697993,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
-1794465698218,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465698219,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465698147,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465698235,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465698271,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698093,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,4,0
-1794465698319,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698320,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465698335,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465698271,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465698395,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698218,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,2,0
-1794465698443,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698444,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465698373,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465698461,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465698496,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698319,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
-1794465698544,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698545,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465698561,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465698498,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465698621,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465698443,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,2,0
-1794465698667,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698669,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465698597,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465698685,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465698721,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698543,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,3,0
-1794465698769,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698770,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465698788,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465698722,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465698846,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465698667,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,3,0
-1794465698893,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698894,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465698824,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465698912,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465698948,48,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
-1794465698768,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,225,3,0
-1794465698996,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465698997,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465699013,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465698948,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465699072,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698893,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,225,1,0
-1794465699119,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699120,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465699049,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465699135,38,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,38,0,0
-1794465699173,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465698996,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
-1794465699220,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699221,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465699238,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465699173,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465699296,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465699119,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,224,0,0
-1794465699343,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699344,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465699273,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465699359,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465699396,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465699220,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
-1794465699443,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699444,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465699459,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465699396,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465699520,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465699343,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,0,0
-1794465699568,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699569,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465699496,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465699586,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465699620,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465699443,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
-1794465699667,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699668,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465699685,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465699623,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465699746,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465699567,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,3,0
-1794465699793,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699794,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465699721,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465699811,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465699845,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465699667,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,2,0
-1794465699892,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465699894,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465699910,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465699847,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465699970,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465699793,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,2,0
-1794465700016,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700017,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465699946,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465700032,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465700068,48,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
-1794465699892,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
-1794465700116,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700118,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700134,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465700069,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465700192,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700016,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,1,0
-1794465700239,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465700240,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465700255,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465700171,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465700294,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700116,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
-1794465700340,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700341,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700357,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465700292,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465700416,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700239,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,0,0
-1794465700462,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700463,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700394,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465700480,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465700516,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465700340,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
-1794465700563,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700564,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700581,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465700517,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465700639,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700462,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,3,0
-1794465700686,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465700687,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700617,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465700703,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465700740,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700563,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
-1794465700787,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465700788,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465700804,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465700740,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465700863,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465700686,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,224,0,0
-1794465700910,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465700911,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465700840,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465700927,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465700963,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700787,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,3,0
-1794465701010,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701011,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465701027,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465700963,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701087,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465700910,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,2,0
-1794465701133,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701134,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465701149,39,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,39,0,0
-1794465701064,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465701188,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701010,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,224,0,0
-1794465701236,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465701237,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465701252,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465701188,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701312,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701133,225,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,225,1,0
-1794465701359,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701360,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465701289,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701376,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465701412,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701235,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
-1794465701459,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701460,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465701476,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465701412,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465701535,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465701359,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,3,0
-1794465701581,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701582,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465701513,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701600,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465701636,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701459,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
-1794465701684,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465701684,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465701701,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465701636,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701759,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701581,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,224,1,0
-1794465701806,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701807,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465701736,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701823,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465701859,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465701683,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
-1794465701905,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465701906,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465701921,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465701859,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465701982,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465701806,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,0,0
-1794465702029,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702030,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465701957,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702045,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465702080,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465701905,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,2,0
-1794465702126,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702128,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465702144,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465702081,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702204,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465702029,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,1,0
-1794465702250,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465702251,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465702180,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465702267,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465702303,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465702126,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,3,0
-1794465702350,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702351,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465702367,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465702303,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465702427,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465702249,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,5,0
-1794465702473,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702474,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
-1794465702402,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465702492,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465702526,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465702350,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
-1794465702572,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465702573,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465702589,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465702529,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702651,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465702473,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
-1794465702698,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465702699,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465702627,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702715,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465702749,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465702571,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,3,0
-1794465702795,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702797,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465702813,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465702751,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702873,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465702698,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,1,0
-1794465702920,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465702921,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465702848,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465702938,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465702970,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465702795,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
-1794465703017,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465703018,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465703033,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465702974,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465703096,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465702920,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,2,0
-1794465703143,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465703144,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465703070,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
-1794465703160,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465703194,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465703017,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
-1794465703240,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465703241,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465703257,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
-1794465703197,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465703319,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
-1794465703143,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,0,0
-1794465703364,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465703365,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465703293,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465703380,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
-1794465703415,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
-1794465703240,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
-1794465703463,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
-1794465703463,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
-1794465703479,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
-1794465703415,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
-1794465703538,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465703364,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,1,0
-1794465703585,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
-1794465703586,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
-1794465703516,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
-1794465703601,38,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,38,0,0
-1794465703639,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
-1794465703462,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,1,0
-1794465703639,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,1,1,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
+1794466029641,49,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,1,1,http://api:8080/health,43,0,32
+1794466029693,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,1,1,http://api:8080/api/products,17,0,0
+1794466029711,40,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,1,1,http://api:8080/api/search?q=keyboard,40,0,0
+1794466029752,129,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,1,1,http://api:8080/api/report?delayMs=120&work=100000,129,0,0
+1794466029882,54,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,1,1,http://api:8080/api/checkout,54,0,0
+1794466029538,289,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,1,1,null,283,110,32
+1794466029938,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,1,1,http://api:8080/health,1,0,0
+1794466029940,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,1,1,http://api:8080/api/products,17,0,0
+1794466029957,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,1,1,http://api:8080/api/search?q=keyboard,37,0,0
+1794466030031,2,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,2,0,1
+1794466030033,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030050,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466029995,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466030118,48,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
+1794466029937,226,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,226,3,0
+1794466030166,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466030168,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030088,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466030185,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466030211,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466030030,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,4,1
+1794466030258,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466030259,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030276,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466030221,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466030345,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466030166,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,4,0
+1794466030391,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466030392,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466030311,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466030409,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466030434,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466030258,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,1,0
+1794466030482,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466030483,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030500,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466030445,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466030568,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466030391,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
+1794466030616,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466030617,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466030535,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466030633,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466030658,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466030481,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,218,4,0
+1794466030704,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466030705,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030721,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466030669,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466030792,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466030615,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,4,0
+1794466030839,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466030840,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466030758,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466030857,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466030881,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466030703,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,2,0
+1794466030928,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466030929,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466030946,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466030894,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466031017,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466030839,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,2,0
+1794466031064,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031065,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466030983,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466031082,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466031106,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466030928,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
+1794466031153,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031154,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466031171,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466031118,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466031240,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466031064,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
+1794466031288,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466031289,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466031207,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466031305,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466031329,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466031153,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,2,0
+1794466031376,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031377,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466031393,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466031341,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466031463,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466031287,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,3,0
+1794466031510,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031512,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466031430,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466031528,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466031553,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466031376,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,224,0,0
+1794466031600,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031601,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466031616,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466031565,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466031687,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466031510,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,2,0
+1794466031734,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031736,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466031653,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466031751,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466031777,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466031600,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
+1794466031824,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031825,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466031842,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466031788,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466031912,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466031734,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,3,0
+1794466031957,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466031959,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466031877,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466031974,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032000,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466031824,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,0,0
+1794466032047,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032048,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032063,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466032010,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466032133,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466031957,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,1,0
+1794466032180,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466032181,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466032100,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466032197,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032222,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466032047,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,0,0
+1794466032268,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032269,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032284,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032234,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466032356,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466032180,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,3,0
+1794466032403,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032404,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466032321,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466032421,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466032444,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466032268,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,2,0
+1794466032490,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032491,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032506,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032457,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466032579,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466032403,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,218,4,0
+1794466032625,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032626,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466032543,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466032642,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032665,48,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,48,0,0
+1794466032490,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,2,0
+1794466032714,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032715,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032730,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466032679,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466032801,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466032625,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
+1794466032849,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466032850,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466032765,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466032866,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466032889,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466032714,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,1,0
+1794466032935,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466032936,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032951,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466032902,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
+1794466033026,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466032848,224,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
+1794466033073,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033075,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466032988,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466033091,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466033111,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466032935,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,0,0
+1794466033157,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033158,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466033175,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466033127,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466033249,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466033073,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,3,0
+1794466033296,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466033297,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466033211,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466033313,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466033334,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466033157,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,223,1,0
+1794466033381,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033382,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466033397,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466033350,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466033472,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466033296,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
+1794466033518,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033519,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466033434,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466033534,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466033557,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466033381,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,1,0
+1794466033603,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033604,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466033619,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466033569,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466033692,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466033518,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,0,0
+1794466033739,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033740,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466033656,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466033755,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466033778,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466033603,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,0,0
+1794466033824,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033825,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466033841,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466033790,124,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,124,0,0
+1794466033914,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466033739,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,0,0
+1794466033961,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466033963,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466033876,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466033979,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466033999,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466033824,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,1,0
+1794466034045,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466034046,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466034062,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466034014,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466034137,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466033961,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
+1794466034184,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034185,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466034099,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466034201,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466034221,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466034045,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,2,0
+1794466034267,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034268,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466034283,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466034238,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466034360,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466034184,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,1,0
+1794466034406,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034407,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466034318,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466034424,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466034441,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466034267,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,0,0
+1794466034487,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034488,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466034503,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466034460,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466034582,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466034406,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
+1794466034629,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034630,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466034540,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466034647,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466034661,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466034487,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,0,0
+1794466034708,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034709,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466034724,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466034682,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466034805,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466034629,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
+1794466034852,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034853,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466034761,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466034868,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466034883,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466034708,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,0,0
+1794466034930,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466034931,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466034948,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466034905,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035028,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466034852,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
+1794466035075,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035077,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466034983,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466035092,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466035106,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466034930,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,2,0
+1794466035153,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466035154,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466035170,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466035129,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466035252,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466035075,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,1,0
+1794466035300,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035301,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466035206,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035318,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466035329,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466035153,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,3,0
+1794466035375,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035377,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466035393,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466035355,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035477,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466035299,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,4,0
+1794466035524,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035525,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466035430,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466035542,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466035552,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466035375,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,4,0
+1794466035598,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035599,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466035614,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466035577,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466035700,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466035524,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
+1794466035747,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035748,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466035649,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035763,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466035771,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466035598,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,0,0
+1794466035818,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035819,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466035834,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466035800,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035923,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466035747,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
+1794466035970,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466035971,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466035871,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466035988,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466035993,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466035818,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,2,0
+1794466036040,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466036040,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466036056,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466036023,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466036146,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466035970,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
+1794466036193,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036194,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466036093,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466036210,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466036215,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466036040,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,2,0
+1794466036261,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466036261,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466036278,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466036246,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466036369,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466036193,223,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,223,0,0
+1794466036416,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036417,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466036314,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466036434,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466036436,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466036261,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,1,0
+1794466036483,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036484,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466036499,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466036470,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466036592,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466036416,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,3,0
+1794466036639,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466036534,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466036640,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466036657,37,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466036657,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466036483,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,0,0
+1794466036703,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036704,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466036719,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466036694,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466036816,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466036639,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,2,0
+1794466036861,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036756,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466036862,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466036878,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466036878,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466036703,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,218,2,0
+1794466036924,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466036924,17,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466036941,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466036913,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466037036,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466036861,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,0,0
+1794466037083,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466036976,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466037084,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466037099,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466037099,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466036923,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,1,0
+1794466037146,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037146,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466037161,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466037135,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466037258,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466037083,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,0,0
+1794466037305,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037196,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466037306,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466037322,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466037319,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466037145,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,218,1,0
+1794466037364,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466037365,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466037382,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466037357,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037479,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466037305,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,1,0
+1794466037525,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466037417,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037526,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466037542,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466037539,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466037364,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,1,0
+1794466037586,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037586,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466037602,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466037578,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037700,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466037525,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,1,0
+1794466037747,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037638,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037747,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466037764,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466037761,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466037586,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,1,0
+1794466037807,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037807,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466037822,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466037800,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037922,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466037747,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
+1794466037969,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466037857,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466037969,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466037986,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466037980,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466037807,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,217,0,0
+1794466038025,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466038026,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038041,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466038022,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038145,45,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466037969,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
+1794466038190,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466038076,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038191,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466038207,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466038198,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,45,0,0
+1794466038025,218,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,218,0,0
+1794466038243,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466038244,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038259,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466038242,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038364,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466038190,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
+1794466038411,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466038296,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466038412,16,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466038428,36,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466038420,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466038243,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,221,3,0
+1794466038467,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466038468,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038484,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466038465,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038587,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466038411,221,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,221,2,0
+1794466038634,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466038520,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038635,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038651,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466038642,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466038467,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,219,2,0
+1794466038689,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466038690,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038706,36,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,36,0,0
+1794466038686,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038808,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466038634,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,2,0
+1794466038855,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466038742,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466038856,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038871,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466038864,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466038689,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,2,0
+1794466038911,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466038912,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466038927,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466038906,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466039028,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466038855,219,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,219,1,0
+1794466039075,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466038962,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466039076,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466039093,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466039085,46,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466038911,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,220,0,0
+1794466039131,0,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466039131,16,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,16,0,0
+1794466039147,37,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,37,0,0
+1794466039129,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466039251,47,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466039075,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,222,1,0
+1794466039298,1,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466039184,122,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,122,0,0
+1794466039299,15,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466039315,35,Search,200,OK,Concurrent Virtual Users 1-1,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466039306,47,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,2,2,http://api:8080/api/checkout,47,0,0
+1794466039131,222,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,2,2,null,222,0,0
+1794466039353,1,Health Check,200,OK,Concurrent Virtual Users 1-2,text,true,,300,177,2,2,http://api:8080/health,1,0,0
+1794466039354,15,List Products,200,OK,Concurrent Virtual Users 1-2,text,true,,406,183,2,2,http://api:8080/api/products,15,0,0
+1794466039369,35,Search,200,OK,Concurrent Virtual Users 1-2,text,true,,319,192,2,2,http://api:8080/api/search?q=keyboard,35,0,0
+1794466039350,123,Variable Cost Report,200,OK,Concurrent Virtual Users 1-1,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,123,0,0
+1794466039473,46,Checkout,201,Created,Concurrent Virtual Users 1-1,text,true,,301,239,2,2,http://api:8080/api/checkout,46,0,0
+1794466039298,220,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-1,,true,,1660,996,2,2,null,220,1,0
+1794466039520,0,Health Check,200,OK,Concurrent Virtual Users 1-1,text,true,,300,177,2,2,http://api:8080/health,0,0,0
+1794466039404,121,Variable Cost Report,200,OK,Concurrent Virtual Users 1-2,text,true,,334,205,2,2,http://api:8080/api/report?delayMs=120&work=100000,121,0,0
+1794466039520,17,List Products,200,OK,Concurrent Virtual Users 1-1,text,true,,406,183,2,2,http://api:8080/api/products,17,0,0
+1794466039526,45,Checkout,201,Created,Concurrent Virtual Users 1-2,text,true,,301,239,1,1,http://api:8080/api/checkout,45,0,0
+1794466039353,217,Transaction: API Journey,200,"Number of samples in transaction : 5, number of failing samples : 0",Concurrent Virtual Users 1-2,,true,,1660,996,1,1,null,217,1,0
