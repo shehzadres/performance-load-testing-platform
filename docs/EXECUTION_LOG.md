@@ -44,6 +44,20 @@ The /api/report sampler had the highest stress p95 at 221 ms (baseline 140 ms). 
 
 See BOTTLENECK_ANALYSIS.md for the measured observation and remediation hypothesis.
 
+## Hosted CI smoke
+
+- Workflow run: 43169817342
+- Commit: bf83d66
+- Environment: GitHub-hosted Actions runner
+- Workload: 2 virtual users, 10 seconds
+- HTTP request samples: 434
+- Transaction samples: 86 (reported separately)
+- Throughput: 42.970 req/s
+- p95 request latency: 123 ms
+- Request error rate: 0%
+
+This hosted-runner measurement is separate from the Dell Latitude local runs and must not be compared directly with them.
+
 ## Evidence files
 
 Each local run folder under evidence/local-runs/ contains its raw JTL, JSON summary and Markdown report. The comparison report is stored in evidence/local-runs/comparisons/.

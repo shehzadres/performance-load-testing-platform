@@ -22,7 +22,7 @@
 - Prometheus API target performance-lab-api reported UP.
 - Grafana provisioned dashboard loaded successfully.
 - Dashboard API confirmed seven panels, including API process CPU and memory.
-- Containerized JMeter 5.6.3 smoke, baseline and stress profiles completed.
+- Containerized JMeter 5.6.3 smoke, baseline, stress and baseline-repeat profiles completed.
 - Five HTTP routes were exercised, including checkout POST with expected HTTP 201 assertion.
 - The analyzer separates transaction-controller rows from HTTP request statistics.
 
@@ -39,15 +39,14 @@ The repeated baseline comparison showed all measured changes within 5%. See docs
 
 ## GitHub verification
 
-- Public repository created and pushed.
-- GitHub Actions first integration run completed successfully, including Docker, Prometheus, Grafana and a real JMeter smoke workload.
-- GitHub Pages recruiter showcase deployed and returned HTTP 200.
-- A subsequent commit added JMeter plan regression tests and its workflow completed successfully.
+- Public repository: https://github.com/shehzadres/performance-load-testing-platform
+- Final functional commit: bf83d66
+- GitHub Actions run 43169817342: SUCCESS.
+- All five jobs passed: Python analysis tests, API contract tests, Compose configuration, Docker/Prometheus/Grafana/JMeter integration, and recruiter showcase deployment.
+- Hosted CI smoke: 434 request samples, 42.970 req/s, p95 123 ms, 0% errors; 86 transaction samples reported separately.
+- GitHub Pages recruiter showcase returned HTTP 200 and displays the corrected CI smoke summary: https://shehzadres.github.io/performance-load-testing-platform/
+- CI raw JTL, JSON and Markdown report are preserved in evidence/ci-smoke/.
 
-A final workflow run is required after the latest analyzer/JMeter/dashboard changes are pushed. Its result and updated CI evidence will be recorded separately.
+## Scope limitations
 
-## Remaining publication checks
-
-- Verify the latest GitHub Actions run after the final code changes.
-- Verify the Pages showcase refreshes with the corrected JMeter transaction-aware summary.
-- No production deployment or public-target stress test is claimed.
+This is a local performance-engineering lab using a synthetic API. Results describe the recorded test plan and host only. No production deployment, production capacity guarantee or public-target stress test is claimed.
