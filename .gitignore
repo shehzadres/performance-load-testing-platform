@@ -1,0 +1,33 @@
+# Dependencies and caches
+node_modules/
+**/node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated performance evidence
+results/*.jtl
+results/*.csv
+results/*.log
+results/html-*/
+reports/*.json
+reports/comparison-*.md
+showcase/data/*.json
+
+# Keep intentional placeholders and documentation
+!results/.gitkeep
+!reports/.gitkeep
+!showcase/data/.gitkeep
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

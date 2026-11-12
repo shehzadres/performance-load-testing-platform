@@ -1,0 +1,142 @@
+name: Quality Checks
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    name: Python analysis tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m compileall -q analysis
+      - run: python -m unittest discover -s analysis/tests -v
+
+  api:
+    name: API contract tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: Start API
+        run: |
+          npm start > /tmp/perf-api.log 2>&1 &
+      - name: Wait for API
+        run: |
+          for i in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:18080/health; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/perf-api.log
+          exit 1
+      - run: npm test
+
+  compose:
+    name: Docker Compose configuration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Compose configuration
+        run: docker compose config --quiet
+
+  integration:
+    name: Docker, monitoring and JMeter smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Start API and monitoring stack
+        run: docker compose up -d --build
+      - name: Wait for API
+        run: |
+          for i in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:18080/health; then exit 0; fi
+            sleep 2
+          done
+          docker compose logs
+          exit 1
+      - name: Verify Prometheus scrape target
+        run: |
+          for i in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:9090/api/v1/targets | jq -e '.data.activeTargets[] | select(.labels.job == "performance-lab-api" and .health == "up")' >/dev/null; then exit 0; fi
+            sleep 2
+          done
+          curl --fail http://127.0.0.1:9090/api/v1/targets
+          exit 1
+      - name: Verify Grafana provisioned dashboard
+        run: curl --fail --silent --user admin:admin http://127.0.0.1:3000/api/dashboards/uid/performance-lab-overview >/dev/null
+      - name: Run real JMeter smoke workload
+        run: |
+          docker compose --profile load run --rm -T jmeter -n -t /work/jmeter/performance-test.jmx -Jusers=2 -Jramp=1 -Jduration=10 -Jjmeter.save.saveservice.output_format=csv -Jjmeter.save.saveservice.print_field_names=true -l /work/results/ci-smoke.jtl
+      - name: Analyze real JMeter output
+        run: python analysis/analyze.py --input results/ci-smoke.jtl --run-id ci-smoke --environment github-actions
+      - name: Upload performance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: performance-smoke-evidence
+          path: |
+            results/ci-smoke.jtl
+            results/ci-smoke.json
+            reports/ci-smoke.md
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Upload showcase data
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-data
+          path: showcase/data/latest.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Stop containers
+        if: always()
+        run: docker compose down -v
+
+  publish-showcase:
+    name: Publish recruiter showcase
+    needs: integration
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download measured smoke evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: showcase-data
+          path: showcase/data
+      - name: Prepare Pages artifact
+        run: test -f showcase/data/latest.json && test -f showcase/index.html
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: showcase
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

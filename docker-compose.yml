@@ -1,0 +1,53 @@
+services:
+  api:
+    build: ./app
+    container_name: perf-lab-api
+    ports: ["18080:8080"]
+    environment: { PORT: "8080", NODE_ENV: production }
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    networks: [perf-lab]
+  prometheus:
+    image: prom/prometheus:v3.1.0
+    container_name: perf-lab-prometheus
+    ports: ["9090:9090"]
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./monitoring/alerts.yml:/etc/prometheus/alerts.yml:ro
+      - prometheus-data:/prometheus
+    command: ["--config.file=/etc/prometheus/prometheus.yml","--storage.tsdb.path=/prometheus","--web.enable-lifecycle"]
+    depends_on: { api: { condition: service_healthy } }
+    restart: unless-stopped
+    networks: [perf-lab]
+  grafana:
+    image: grafana/grafana:11.4.0
+    container_name: perf-lab-grafana
+    ports: ["3000:3000"]
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on: [prometheus]
+    restart: unless-stopped
+    networks: [perf-lab]
+  jmeter:
+    image: alpine/jmeter:5.6.3
+    profiles: ["load"]
+    working_dir: /work
+    volumes: ["./jmeter:/work/jmeter:ro","./results:/work/results"]
+    entrypoint: ["jmeter"]
+    networks: [perf-lab]
+networks:
+  perf-lab:
+    name: perf-lab-network
+volumes:
+  prometheus-data:
+  grafana-data:
